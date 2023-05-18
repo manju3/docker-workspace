@@ -1,0 +1,17 @@
+{
+  "name": "My Dev container",
+    "build": { "dockerfile": "Dockerfile" },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode-remote.remote-containers",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    },
+    "remoteEnv": {
+      "TERM_PROGRAM": "vscode",
+      "TERM": "xterm-256color"
+    },
+    "forwardPorts": [3000]
+  }

@@ -1,2 +1,2 @@
-# docker-workspace
-Doker image for personal workspace
+# vscode-dev-container
+Boilerplate for docker image and dev container
